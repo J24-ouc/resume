@@ -71,7 +71,7 @@ export const Template2: React.FC<Props> = props => {
   const workList = _.get(value, 'workList');
 
   /** 自我介绍 */
-  const aboutme = _.split(_.get(value, ['aboutme', 'aboutme_desc']), '\n');
+  
 
   return (
     <div className="template2-resume resume-content">
